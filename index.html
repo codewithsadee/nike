@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Product detail page</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="77" height="20" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Collection</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Men</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Women</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-action">
+
+        <button class="header-action-btn">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="profile-btn" aria-label="profile">
+          <img src="./assets/images/profile.png" width="100" height="100" loading="lazy" alt="profile" class="img">
+        </button>
+
+      </div>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <div class="product-slides">
+
+            <div class="slider-banner" data-slider>
+              <figure class="product-banner">
+                <img src="./assets/images/product-1.png" width="600" height="600" alt="Nike Sneaker" class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./assets/images/product-2.png" width="600" height="600" alt="Nike Sneaker" class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./assets/images/product-3.png" width="600" height="600" alt="Nike Sneaker" class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./assets/images/product-4.png" width="600" height="600" alt="Nike Sneaker" class="img-cover">
+              </figure>
+            </div>
+
+            <button class="slide-btn prev" aria-label="Next image" data-prev>
+              <ion-icon name="chevron-back" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="slide-btn next" aria-label="Previous image" data-next>
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <div class="product-content">
+
+            <p class="product-subtitle">Nike Company</p>
+
+            <h1 class="h1 product-title">Fall Limited Edition Sneakers</h1>
+
+            <p class="product-text">
+              These low-profile sneakers are your perfect casual wear companion. Featuring a
+              durable rubber outer sole, they’ll withstand everything the weather can offer.
+            </p>
+
+            <div class="wrapper">
+
+              <span class="price" data-total-price>$125.00</span>
+
+              <span class="badge">50%</span>
+
+              <del class="del">$250.00</del>
+
+            </div>
+
+            <div class="btn-group">
+
+              <div class="counter-wrapper">
+
+                <button class="counter-btn" data-qty-minus>
+                  <ion-icon name="remove-outline"></ion-icon>
+                </button>
+
+                <span data-qty>1</span>
+
+                <button class="counter-btn" data-qty-plus>
+                  <ion-icon name="add-outline"></ion-icon>
+                </button>
+
+              </div>
+
+              <button class="cart-btn">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Add to cart</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
