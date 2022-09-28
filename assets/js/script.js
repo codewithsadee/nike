@@ -36,7 +36,7 @@ addEventOnElem(navToggler, "click", toggleNav);
 
 
 /**
- * slider functionality
+ * slider funtionality
  */
 
 const slider = document.querySelector("[data-slider]");
@@ -49,13 +49,10 @@ let sliderPos = 0;
 // set the number of total slider items
 const totalSliderItems = 4;
 
-sliderEnd();
-
 // make next slide btn workable
 const slideToNext = function () {
 
   sliderPos++;
-
   slider.style.transform = `translateX(-${sliderPos}00%)`;
 
   sliderEnd();
@@ -64,12 +61,10 @@ const slideToNext = function () {
 
 addEventOnElem(nextBtn, "click", slideToNext);
 
-
 // make prev slide btn workable
 const slideToPrev = function () {
 
   sliderPos--;
-
   slider.style.transform = `translateX(-${sliderPos}00%)`;
 
   sliderEnd();
@@ -77,6 +72,7 @@ const slideToPrev = function () {
 }
 
 addEventOnElem(prevBtn, "click", slideToPrev);
+
 
 
 // check when slider is end then what should slider btn do
@@ -94,10 +90,12 @@ function sliderEnd() {
   }
 }
 
+sliderEnd();
+
 
 
 /**
- * product quantity functionaly
+ * product quantity functionality
  */
 
 const totalPriceElem = document.querySelector("[data-total-price]");
@@ -124,7 +122,6 @@ const increaseProductQty = function () {
 
 addEventOnElem(qtyPlusBtn, "click", increaseProductQty);
 
-
 const decreaseProductQty = function () {
   if (qty > 1) qty--;
   totalPrice = qty * productPrice;
@@ -134,5 +131,3 @@ const decreaseProductQty = function () {
 }
 
 addEventOnElem(qtyMinusBtn, "click", decreaseProductQty);
-
-
