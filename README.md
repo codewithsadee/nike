@@ -3,7 +3,7 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/nike)
   ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/nike?style=social)
   ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/nike?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
   [![YouTube Video Views](https://img.shields.io/youtube/views/0O3yFSEujrw?style=social)](https://youtu.be/0O3yFSEujrw)
 
   <br />
